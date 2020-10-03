@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.button, button {
+    color: $dark-grey;
+    font-weight: bold;
+    background: $off-white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: $font-size-small;
+    padding: $s-size $l-size;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.button-small {
+    background: $primary-color;
+    font-size: $s-size;
+    color: $off-white;
+    font-weight: normal;
+    padding: $s-size $m-size;
+    cursor: pointer;
+}
+
+.button:hover, button:hover {
+    color: $off-white;
+    background-color: $secondary-color;
+    transition: all 0.4s ease;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $off-white;
+    padding: 0.2rem 0;
+}
+
+a:hover {
+    color: $secondary-color;
+    transition: all 0.4s ease;
+}
+
+form input, form textarea{
+    font-size: $font-size-small;
+    background-color: $off-white;
+    border: none;
+    border-radius: 0.5rem;
+}

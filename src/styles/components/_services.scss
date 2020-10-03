@@ -1,0 +1,72 @@
+.services-element {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $brakepoint-mobile) {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+    }
+    @media (min-width: $brakepoint-tablet) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.service-info {
+    width: 100%;
+    padding: 1rem;
+    height: 100%;
+    position: relative;
+
+    // @media (min-width: $brakepoint-mobile) {
+    //     width: 33%;
+    // }
+
+    @media (min-width: $brakepoint-tablet) {
+        width: 33%;
+    }
+}
+
+.service-image {
+    width: 100%;
+    height: 17rem;
+
+    @media (min-width: $brakepoint-tablet) {
+    width: 30rem;
+    height: 25rem;
+}
+    }
+
+
+.service-title {
+    font-size: $font-size-medium;
+    color: $dark-grey;
+    padding-top: 1rem;
+}
+
+
+.service-text {
+    font-size: $font-size-small;
+    color: $dark-grey;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    // height: auto;
+    text-align: justify;
+
+    @media (min-width: $brakepoint-tablet) {
+        padding: 1rem 0;
+        min-height: 25rem;
+    }
+}
+
+
+.one {
+    display: flex;
+    .button {
+        text-align: center;
+        width: 100%;
+        margin: 0 1rem 2rem 1rem;
+    }
+}

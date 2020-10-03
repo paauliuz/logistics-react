@@ -1,0 +1,83 @@
+.careers-container {
+    // min-height: 25rem;
+    // height: 35vh;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $brakepoint-mobile) {
+        min-height: 25rem;
+        height: 35vh;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    @media (min-width: $brakepoint-tablet) {
+        justify-content: space-between;
+    }
+}
+
+.careers-container__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: $off-white;
+    margin: 0 2rem 2rem 2rem;
+    font-size: $font-size-medium;
+    color: $dark-grey;
+
+    @media (min-width: $brakepoint-mobile) {
+        width: 30%;
+        margin: 0;
+    }
+}
+
+.careers-container__info i {
+    color: $secondary-color;
+}
+
+.careers-container__info:last-child {
+    padding-bottom: 1rem;
+}
+
+.primary {
+    padding: 2rem;
+}
+
+.secondary {
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+.message-container {
+    background: $secondary-color;
+    color: $off-white;
+    padding-top: 2rem;
+
+    h1 {
+        font-size: $font-size-large;
+        padding-bottom: 0.5rem;
+    }
+
+    h3 {
+        font-size: $font-size-small;
+        padding-bottom: 2rem;
+    }
+
+    .button-small:hover {
+        color: $dark-grey !important;
+        background: $off-white;
+    }
+}
+
+.message-content-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.button-container {
+    padding-bottom: 2rem;
+}

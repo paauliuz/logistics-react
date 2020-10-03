@@ -1,0 +1,40 @@
+// Colors
+$dark-grey: #333333;
+$grey: #666;
+$blue: #396384;
+$dark-blue: #364051;
+$off-white: #f7f7ff;
+$secondary-color: #c43b3b;
+$primary-color: #083c66;
+
+
+//Font Size
+$font-size-xlarge: 4.5rem;
+$font-size-large: 3rem;
+$font-size-medium: 1.8rem;
+$font-size-small: 1.4rem;
+//Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+
+$brakepoint-mobile: 45rem;
+$brakepoint-tablet: 70rem;
+
+.page-title {
+    background-color: $off-white;
+    padding: 1rem 0 2.5rem 1rem;
+    border-bottom: solid 0.5px #dadada;
+}
+
+.page-title__title {
+    font-size: $font-size-large;
+    color: $dark-grey;
+    font-weight: bold;
+}
+
+.page-title__subtitle {
+    font-size: $font-size-small;
+    color: $dark-grey;
+}
