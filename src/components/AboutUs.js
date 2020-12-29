@@ -6,7 +6,7 @@ const AboutUs = () => {
     const { languagePack } = useContext(LanguageContext)
 
     return (
-        <div>
+        <div className="component-wrapper">
             <div className="page-title">
                 <div className="content-container">
                     <h1 className="page-title__title">{languagePack.aboutUs.title}</h1>

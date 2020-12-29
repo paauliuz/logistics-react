@@ -78,9 +78,9 @@ const lithuanian =
         about: 'Apie mus',
         careers: 'Karjera',
         contact: 'Kontaktai',
-        callUs: 'Paskambink mums',
+        callUs: 'Paskambink',
         openingTime: 'Darbo laikas',
-        emailUs: 'Parašyk mums'
+        emailUs: 'Parašyk'
     },
 
     hero: {

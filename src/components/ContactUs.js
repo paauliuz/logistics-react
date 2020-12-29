@@ -1,13 +1,12 @@
 import React, { useContext } from 'react'
 import languageContext from '../context/Language-context'
-import { NavLink } from 'react-router-dom'
 
 const ContactUs = () => {
 
     const { languagePack } = useContext(languageContext)
 
     return (
-        <div>
+        <div className="component-wrapper">
             <div className="page-title">
                 <div className="content-container">
                     <h1 className="page-title__title">{languagePack.contact.title}</h1>

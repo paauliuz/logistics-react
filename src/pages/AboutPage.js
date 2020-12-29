@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import AboutUs from '../components/AboutUs'
 
 const AboutPage = () => (
-    <div>
+    <div className="page-wrapper">
         <Header />
         <AboutUs />
         <Footer />

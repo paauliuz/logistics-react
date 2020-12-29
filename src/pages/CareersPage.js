@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import Careers from '../components/Careers'
 
 const CareersPage = () => (
-    <div>
+    <div className="page-wrapper">
         <Header />
         <Careers />
         <Footer />

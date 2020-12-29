@@ -5,12 +5,12 @@ import Services from '../components/Services'
 import Footer from '../components/Footer'
 
 const HomePage = () => (
-    <div>
+    <React.Fragment>
         <Header />
         <Hero />
         <Services />
         <Footer />
-    </div>
+    </React.Fragment>
 )
 
 export default HomePage

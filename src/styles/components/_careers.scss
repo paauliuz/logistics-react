@@ -1,9 +1,9 @@
 .careers-container {
-    // min-height: 25rem;
-    // height: 35vh;
     padding: 2rem 0;
     display: flex;
     flex-direction: column;
+    justify-items: space-between;
+    width: 100%;
 
     @media (min-width: $brakepoint-mobile) {
         min-height: 25rem;

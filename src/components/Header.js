@@ -13,7 +13,7 @@ const Header = () => {
                 <div className="content-container ">
                     <div className="white-header-info">
                         <div className="logo-container">
-                            <NavLink to="/"><img className="logo" src="/img/demo_logo.png" /></NavLink>
+                            <NavLink to="/"><img className="logo" alt=" " src="/img/logo.png" /></NavLink>
                         </div>
                         <div className="info-container">
                             <div className="header-info">
@@ -38,14 +38,12 @@ const Header = () => {
                 <div className="content-container">
                     <div className="blue-header-info">
                         <div className="header-menu">
-                            <NavLink className="navlink" to="/" exact={true} activeClassName="is-active">{languagePack.header.home}</NavLink>
+                            <NavLink className="navlink main-page" to="/" exact={true} activeClassName="is-active">{languagePack.header.home}</NavLink>
                             <NavLink className="navlink" to="/about" activeClassName="is-active">{languagePack.header.about}</NavLink>
                             <NavLink className="navlink" to="/careers" activeClassName="is-active">{languagePack.header.careers}</NavLink>
                             <NavLink className="navlink" to="/contact" activeClassName="is-active">{languagePack.header.contact}</NavLink>
                         </div>
-                        <div>
-                            <LanguageMenu />
-                        </div>
+                        <LanguageMenu />
                     </div>
                 </div>
             </div>

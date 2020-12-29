@@ -68,3 +68,15 @@ form input, form textarea{
     border: none;
     border-radius: 0.5rem;
 }
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.component-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}

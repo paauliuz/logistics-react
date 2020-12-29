@@ -1,5 +1,4 @@
 import React from 'react'
-const defaultValue = 'aaa'
-const LanguageContext = React.createContext(defaultValue);
+const LanguageContext = React.createContext();
 
 export default LanguageContext
