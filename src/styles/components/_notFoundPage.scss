@@ -1,0 +1,12 @@
+.not-found-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+    font-size: $font-size-xlarge !important;
+    font-weight: bold !important;
+    margin: $l-size;
+}
+}
