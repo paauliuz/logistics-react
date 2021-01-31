@@ -13,7 +13,7 @@ const Header = () => {
                 <div className="content-container ">
                     <div className="white-header-info">
                         <div className="logo-container">
-                            <NavLink to="/"><img className="logo" alt=" " src="/img/logo.png" /></NavLink>
+                            <NavLink to="/"><img className="logo" alt=" " src="/img/truck.svg" /></NavLink>
                         </div>
                         <div className="info-container">
                             <div className="header-info">
